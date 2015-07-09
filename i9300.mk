@@ -61,9 +61,9 @@ PRODUCT_PACKAGES += \
     Nfc \
     Tag
 
-# Camera
+# Camera Wrapper
 PRODUCT_PACKAGES += \
-    camera.smdk4x12
+    camera.exynos4
 
 PRODUCT_COPY_FILES += \
     packages/apps/Nfc/migrate_nfc.txt:system/etc/updatecmds/migrate_nfc.txt \
